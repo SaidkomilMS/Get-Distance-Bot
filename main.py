@@ -28,10 +28,8 @@ def start(update, context):
 def location(update, context):
 	global last_location, loc_num
 	chat_id = update.effective_chat.id
-#	context.bot.send_message(chat_id, text=f'Update:\n{str(update)}')
 	if update.message:
 		if update.message.location:
-		#	context.bot.send_message(chat_id, text=f'Update.message.location:\n{str(update.message.location)}')
 			if loc_num[chat_id] == 1:
 				last_location[chat_id] = update.message.location
 				save_loc(chat_id, last_location[chat_id])
