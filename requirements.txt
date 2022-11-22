@@ -19,7 +19,7 @@ idna==2.10
 keep==2.10.1
 lxml==4.6.3
 pefile==2021.5.13
-Pillow==8.2.0
+Pillow==9.3.0
 pyaes==1.6.1
 pycparser==2.20
 PyGithub==1.55
