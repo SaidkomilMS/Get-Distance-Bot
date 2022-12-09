@@ -4,7 +4,7 @@ APScheduler==3.6.3
 async-lru==1.0.2
 cachelib==0.2.0
 cachetools==4.2.2
-certifi==2021.5.30
+certifi==2022.12.7
 cffi==1.14.5
 chardet==4.0.0
 click==8.0.1
